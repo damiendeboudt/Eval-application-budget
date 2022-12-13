@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 5em;
+    border-bottom: 2px solid black;
+    align-items: center;
+    margin-bottom: 2em;
+    background-color: grey;
+    color: white;
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+}
+h2{
+    border-bottom: 2px solid black;
+    margin-bottom: 1em;
+}
+#depense-fixe, #Epargne, #Recettes, #Result{
+    display: flex;
+    flex-direction: column;
+}
+#depense-fixe{
+    width: 20em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#depense-fixe > input {
+    width: 11em;
+}
+
+#depense-fixe > h2 {
+    margin-right: 2em;
+}
+input{
+    margin-bottom: 1em;
+    height: 3em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+#Button-result{
+    border-radius: 10px;
+    height: 4em;
+    margin-bottom: 2em;
+    background-color: white;
+    box-shadow: 3px 3px black;
+}
+#Button-result:hover{
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    box-shadow: 0px 0px 0px black;
+}
