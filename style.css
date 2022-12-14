@@ -43,6 +43,7 @@ h2{
 input{
     margin-bottom: 1em;
     height: 3em;
+    padding-left: 1em;
     border-radius: 10px;
     box-shadow: 1px 1px 1px grey;
 }
