@@ -102,9 +102,16 @@ buttonCalculate.addEventListener("click", ()=> {
     if(monnaie < 0) {
         alert("Attention, la fin du mois va être rude")
     }
+    if (monnaie === 0) {
+        alert("Budget nul")
+    }
     else {
         alert("On est bien, il te restes," + monnaie + "$ ce mois ci")
     }
 })
 
 
+let reset = document.getElementById("Button-reset")
+reset.addEventListener("click", ()=>{
+    window.location.reload()
+})
