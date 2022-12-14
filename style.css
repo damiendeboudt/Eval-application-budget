@@ -48,20 +48,20 @@ input{
     box-shadow: 1px 1px 1px grey;
 }
 
-#Button-result{
+#Button-result, #Button-reset, #ajouter-depense, #ajouter-recette {
     border-radius: 10px;
     height: 4em;
     margin-bottom: 2em;
     background-color: white;
     box-shadow: 3px 3px black;
 }
-#Button-result:hover{
+#Button-result:hover, #Button-reset:hover, #ajouter-depense:hover, #ajouter-recette:hover{
     cursor: pointer;
     background-color: grey;
     color: white;
     box-shadow: 0px 0px 0px black;
 }
-#Button-reset{
+{
     border-radius: 10px;
     height: 4em;
     margin-bottom: 2em;

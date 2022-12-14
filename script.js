@@ -99,6 +99,7 @@ buttonCalculate.addEventListener("click", ()=> {
     let monnaie = (soustraction + banque) - addition
     document.getElementById("restant").innerHTML = "Budget restant: " + monnaie + "$"
 
+    //alert suivant le budget restant
     if(monnaie < 0) {
         alert("Attention, la fin du mois va être rude")
     }
@@ -110,8 +111,26 @@ buttonCalculate.addEventListener("click", ()=> {
     }
 })
 
-
+//reload
 let reset = document.getElementById("Button-reset")
 reset.addEventListener("click", ()=>{
     window.location.reload()
+})
+//ajouter une depense
+let buttonAdd = document.getElementById("ajouter-depense")
+
+buttonAdd.addEventListener("click", ()=>{
+    let createDepense = document.createElement("input")
+    let createDepense2 = document.getElementById("depense-fixe")
+    createDepense2.appendChild(createDepense)
+})
+
+
+//ajouter une recette
+let buttonAddRecette = document.getElementById("ajouter-recette")
+
+buttonAddRecette.addEventListener("click", ()=>{
+    let createRecette = document.createElement("input")
+    let createRecette2 = document.getElementById("Recettes")
+    createRecette2.appendChild(createRecette)
 })
