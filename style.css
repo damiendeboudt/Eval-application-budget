@@ -28,7 +28,7 @@ h2{
     flex-direction: column;
 }
 #depense-fixe{
-    width: 20em;
+    width: 10em;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -61,13 +61,7 @@ input{
     color: white;
     box-shadow: 0px 0px 0px black;
 }
-{
-    border-radius: 10px;
-    height: 4em;
-    margin-bottom: 2em;
-    background-color: white;
-    box-shadow: 3px 3px black;
-}
+
 #Button-reset:hover{
     cursor: pointer;
     background-color: grey;
